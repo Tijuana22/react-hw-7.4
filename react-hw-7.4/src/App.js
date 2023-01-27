@@ -2,7 +2,7 @@ import Article from "./component/Article";
 import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Nav from "./component/Nav";
-
+import "./styles.css";
 
 
 function App() {

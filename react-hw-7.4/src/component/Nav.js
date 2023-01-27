@@ -2,7 +2,7 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div aria-label="Main Navigation" role="navigation">
+    <div className="nav" aria-label="Main Navigation" role="navigation">
       
 
         <ul>

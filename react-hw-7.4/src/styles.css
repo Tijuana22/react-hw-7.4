@@ -1,0 +1,82 @@
+
+    html {
+        border-left: 5px solid lightgray;
+    }
+    body {
+        min-height: 100vh;
+        font-family: "Lato" sans-serif;
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+    header, main, footer {
+        padding: 1rem 0 2rem 2rem;
+    }
+    h1 {
+        color: tomato;
+        font-weight: normal; 
+        font-size: 3em;
+    }
+    h2 {
+        font-weight: normal;
+        font-size: 2em;
+
+    }
+
+
+    h3{
+        color:lightgray;
+        font-size: 2em;
+        font-weight:normal;
+    }
+    img {
+        width: 100%;
+    }
+    .nav {
+        padding: 0;
+        list-style-type: none;
+        display:flex;
+        justify-content: space-between;
+    
+       
+    }
+    .nav a {
+        color: lightgray;
+    }
+
+    
+    
+    .footer-nav a {
+        color: tomato;
+        
+
+    }
+    .blog-post-title {
+        font-size: larger;
+    }
+    .container-link a {
+        display: block;
+        text-align: right;
+        font-weight: bold;
+        color: tomato;
+    }
+    .article {
+        margin-bottom: 4rem;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 2rem;
+    
+    }
+
+   
+    .article p::first-letter {
+        color: lightgray;
+        font-size: 6rem;
+        float:left;
+        line-height: 1;
+        margin: -.1em .1em 0 -.1em;
+    }
+    
+    .copyright {
+        color: lightgray;
+    }
+
